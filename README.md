@@ -42,7 +42,7 @@ go run ./cmd/api
 
 ## Примеры запросов
 
-Добавление/создание баласа
+Добавление/создание баланса
 ```bash
 curl -X POST localhost:8080/v1/transactions -d '{"user_id": "653F535D-10BA-4186-A05B-74493354F13B", "amount": 100, "type": "deposit"}' 
 ```
